@@ -68,76 +68,69 @@ requires:
   Test::Reporter: 0
   Test::Reporter::Transport::Socket: 0
   Test::WWW::Mechanize::Catalyst: 0
+  V: 0
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Task-BeLike-FLORA
   homepage: http://search.cpan.org/dist/Task-BeLike-FLORA
   repository: git://github.com/rafl/task-belike-flora.git
-version: 0.01
+version: 0.02
 x_Dist_Zilla:
   plugins:
     -
       class: Dist::Zilla::Plugin::GatherDir
-      name: '@FLORA/@Filter/GatherDir'
+      name: '@FLORA/@Basic/GatherDir'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::PruneCruft
-      name: '@FLORA/@Filter/PruneCruft'
+      name: '@FLORA/@Basic/PruneCruft'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::ManifestSkip
-      name: '@FLORA/@Filter/ManifestSkip'
+      name: '@FLORA/@Basic/ManifestSkip'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::MetaYAML
-      name: '@FLORA/@Filter/MetaYAML'
+      name: '@FLORA/@Basic/MetaYAML'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::License
-      name: '@FLORA/@Filter/License'
+      name: '@FLORA/@Basic/License'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::Readme
-      name: '@FLORA/@Filter/Readme'
-      version: 2.101241
-    -
-      class: Dist::Zilla::Plugin::PkgVersion
-      name: '@FLORA/@Filter/PkgVersion'
-      version: 2.101241
-    -
-      class: Dist::Zilla::Plugin::PodCoverageTests
-      name: '@FLORA/@Filter/PodCoverageTests'
-      version: 2.101241
-    -
-      class: Dist::Zilla::Plugin::PodSyntaxTests
-      name: '@FLORA/@Filter/PodSyntaxTests'
+      name: '@FLORA/@Basic/Readme'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::ExtraTests
-      name: '@FLORA/@Filter/ExtraTests'
+      name: '@FLORA/@Basic/ExtraTests'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::ExecDir
-      name: '@FLORA/@Filter/ExecDir'
+      name: '@FLORA/@Basic/ExecDir'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::ShareDir
-      name: '@FLORA/@Filter/ShareDir'
+      name: '@FLORA/@Basic/ShareDir'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::MakeMaker
-      name: '@FLORA/@Filter/MakeMaker'
+      name: '@FLORA/@Basic/MakeMaker'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::Manifest
-      name: '@FLORA/@Filter/Manifest'
+      name: '@FLORA/@Basic/Manifest'
+      version: 2.101241
+    -
+      class: Dist::Zilla::Plugin::TestRelease
+      name: '@FLORA/@Basic/TestRelease'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::ConfirmRelease
-      name: '@FLORA/@Filter/ConfirmRelease'
+      name: '@FLORA/@Basic/ConfirmRelease'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::UploadToCPAN
-      name: '@FLORA/@Filter/UploadToCPAN'
+      name: '@FLORA/@Basic/UploadToCPAN'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::MetaConfig
@@ -146,6 +139,18 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::MetaJSON
       name: '@FLORA/MetaJSON'
+      version: 2.101241
+    -
+      class: Dist::Zilla::Plugin::PkgVersion
+      name: '@FLORA/PkgVersion'
+      version: 2.101241
+    -
+      class: Dist::Zilla::Plugin::PodSyntaxTests
+      name: '@FLORA/PodSyntaxTests'
+      version: 2.101241
+    -
+      class: Dist::Zilla::Plugin::PodCoverageTests
+      name: '@FLORA/PodCoverageTests'
       version: 2.101241
     -
       class: Dist::Zilla::Plugin::MetaResources

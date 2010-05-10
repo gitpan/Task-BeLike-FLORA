@@ -75,9 +75,10 @@ my %WriteMakefileArgs = (
     'Test::Pod::Coverage' => '0',
     'Test::Reporter' => '0',
     'Test::Reporter::Transport::Socket' => '0',
-    'Test::WWW::Mechanize::Catalyst' => '0'
+    'Test::WWW::Mechanize::Catalyst' => '0',
+    'V' => '0'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }

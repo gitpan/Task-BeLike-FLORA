@@ -50,6 +50,7 @@ my %WriteMakefileArgs = (
     'JSON' => '0',
     'List::AllUtils' => '0',
     'Method::Signatures::Simple' => '0',
+    'Module::CPANTS::Analyse' => '0',
     'Module::Install' => '0.95',
     'Module::Install::AuthorRequires' => '0',
     'Module::Install::AuthorTests' => '0',
@@ -71,6 +72,7 @@ my %WriteMakefileArgs = (
     'Task::Catalyst' => '0',
     'Task::KiokuDB' => '0',
     'Task::Plack' => '0',
+    'Task::SDK::Moose' => '0',
     'Test::Pod' => '0',
     'Test::Pod::Coverage' => '0',
     'Test::Reporter' => '0',
@@ -78,7 +80,7 @@ my %WriteMakefileArgs = (
     'Test::WWW::Mechanize::Catalyst' => '0',
     'V' => '0'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.03',
   'test' => {
     'TESTS' => 't/*.t'
   }

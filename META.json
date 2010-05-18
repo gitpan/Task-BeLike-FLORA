@@ -74,6 +74,7 @@
       "Test::Reporter" : "0",
       "Test::Reporter::Transport::Socket" : "0",
       "Test::WWW::Mechanize::Catalyst" : "0",
+      "Test::Without::Module" : "0",
       "V" : "0"
    },
    "resources" : {
@@ -81,7 +82,7 @@
       "homepage" : "http://search.cpan.org/dist/Task-BeLike-FLORA",
       "repository" : "git://github.com/rafl/task-belike-flora.git"
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_Dist_Zilla" : {
       "plugins" : [
          {

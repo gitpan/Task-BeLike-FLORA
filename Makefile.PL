@@ -78,9 +78,10 @@ my %WriteMakefileArgs = (
     'Test::Reporter' => '0',
     'Test::Reporter::Transport::Socket' => '0',
     'Test::WWW::Mechanize::Catalyst' => '0',
+    'Test::Without::Module' => '0',
     'V' => '0'
   },
-  'VERSION' => '0.03',
+  'VERSION' => '0.04',
   'test' => {
     'TESTS' => 't/*.t'
   }

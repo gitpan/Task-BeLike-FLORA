@@ -6,7 +6,7 @@ BEGIN {
   $Task::BeLike::FLORA::AUTHORITY = 'cpan:FLORA';
 }
 BEGIN {
-  $Task::BeLike::FLORA::VERSION = '0.03';
+  $Task::BeLike::FLORA::VERSION = '0.04';
 }
 # ABSTRACT: Modules FLORA uses
 
@@ -22,7 +22,7 @@ Task::BeLike::FLORA - Modules FLORA uses
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 TASK CONTENTS
 
@@ -95,6 +95,8 @@ version 0.03
 =head3 Test::Pod
 
 =head3 Test::Pod::Coverage
+
+=head3 Test::Without::Module
 
 =head3 V
 

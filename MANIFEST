@@ -8,7 +8,7 @@ README
 dist.ini
 lib/Task/BeLike/FLORA.pm
 t/release-eol.t
-t/release-no_tabs.t
+t/release-no-tabs.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
 t/task-bogus.t

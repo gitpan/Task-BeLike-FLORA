@@ -6,7 +6,7 @@ BEGIN {
   $Task::BeLike::FLORA::AUTHORITY = 'cpan:FLORA';
 }
 BEGIN {
-  $Task::BeLike::FLORA::VERSION = '0.04';
+  $Task::BeLike::FLORA::VERSION = '0.05';
 }
 # ABSTRACT: Modules FLORA uses
 
@@ -22,7 +22,7 @@ Task::BeLike::FLORA - Modules FLORA uses
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 TASK CONTENTS
 
@@ -54,11 +54,15 @@ version 0.04
 
 =head3 Task::SDK::Moose
 
+=head3 Term::ReadLine::Gnu
+
 =head3 Test::Reporter
 
 =head3 Test::Reporter::Transport::Socket
 
 =head2 Development Tools
+
+=head3 Acme::MetaSyntactic
 
 =head3 Carp::Always
 
@@ -91,6 +95,8 @@ version 0.04
 =head3 Perl::Tidy
 
 =head3 Pod::Coverage::TrustPod
+
+=head3 Test::Aggregate
 
 =head3 Test::Pod
 
@@ -152,7 +158,7 @@ version 0.04
 
 =head1 AUTHOR
 
-  Florian Ragwitz <rafl@debian.org>
+Florian Ragwitz <rafl@debian.org>
 
 =head1 COPYRIGHT AND LICENSE
 

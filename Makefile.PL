@@ -22,6 +22,7 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Task::BeLike::FLORA',
   'PREREQ_PM' => {
+    'Acme::MetaSyntactic' => '0',
     'App::Ack' => '0',
     'App::Metabase::Relayd' => '0',
     'App::Nopaste' => '0',
@@ -73,6 +74,8 @@ my %WriteMakefileArgs = (
     'Task::KiokuDB' => '0',
     'Task::Plack' => '0',
     'Task::SDK::Moose' => '0',
+    'Term::ReadLine::Gnu' => '0',
+    'Test::Aggregate' => '0',
     'Test::Pod' => '0',
     'Test::Pod::Coverage' => '0',
     'Test::Reporter' => '0',
@@ -81,7 +84,7 @@ my %WriteMakefileArgs = (
     'Test::Without::Module' => '0',
     'V' => '0'
   },
-  'VERSION' => '0.04',
+  'VERSION' => '0.05',
   'test' => {
     'TESTS' => 't/*.t'
   }
@@ -90,10 +93,10 @@ my %WriteMakefileArgs = (
 
 unless ( eval { ExtUtils::MakeMaker->VERSION(6.56) } ) {
   my $br = delete $WriteMakefileArgs{BUILD_REQUIRES};
-  my $pp = $WriteMakefileArgs{PREREQ_PM}; 
+  my $pp = $WriteMakefileArgs{PREREQ_PM};
   for my $mod ( keys %$br ) {
     if ( exists $pp->{$mod} ) {
-      $pp->{$mod} = $br->{$mod} if $br->{$mod} > $pp->{$mod}; 
+      $pp->{$mod} = $br->{$mod} if $br->{$mod} > $pp->{$mod};
     }
     else {
       $pp->{$mod} = $br->{$mod};

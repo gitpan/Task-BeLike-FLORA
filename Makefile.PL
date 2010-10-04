@@ -40,6 +40,7 @@ my %WriteMakefileArgs = (
     'Data::Visitor' => '0',
     'Devel::Cover' => '0',
     'Devel::NYTProf' => '0',
+    'Devel::bt' => '0',
     'Dist::Zilla' => '0',
     'Dist::Zilla::PluginBundle::FLORA' => '0',
     'Email::MIME::Kit' => '0',
@@ -69,6 +70,7 @@ my %WriteMakefileArgs = (
     'MooseX::Types::URI' => '0',
     'PadWalker' => '0',
     'Perl::Tidy' => '0',
+    'Perl::Version' => '1.010',
     'Pod::Coverage::TrustPod' => '0',
     'Task::Catalyst' => '0',
     'Task::KiokuDB' => '0',
@@ -84,7 +86,7 @@ my %WriteMakefileArgs = (
     'Test::Without::Module' => '0',
     'V' => '0'
   },
-  'VERSION' => '0.05',
+  'VERSION' => '0.06',
   'test' => {
     'TESTS' => 't/*.t'
   }

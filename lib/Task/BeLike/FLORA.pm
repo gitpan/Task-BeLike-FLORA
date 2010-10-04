@@ -6,7 +6,7 @@ BEGIN {
   $Task::BeLike::FLORA::AUTHORITY = 'cpan:FLORA';
 }
 BEGIN {
-  $Task::BeLike::FLORA::VERSION = '0.05';
+  $Task::BeLike::FLORA::VERSION = '0.06';
 }
 # ABSTRACT: Modules FLORA uses
 
@@ -22,139 +22,143 @@ Task::BeLike::FLORA - Modules FLORA uses
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 TASK CONTENTS
 
 =head2 Applications
 
-=head3 App::Ack
+=head3 L<App::Ack>
 
-=head3 App::Metabase::Relayd
+=head3 L<App::Metabase::Relayd>
 
-=head3 App::Nopaste
+=head3 L<App::Nopaste>
 
-=head3 App::Software::License
+=head3 L<App::Software::License>
 
-=head3 App::cpanminus
+=head3 L<App::cpanminus>
 
-=head3 App::cpanoutdated
+=head3 L<App::cpanoutdated>
 
-=head3 CPAN::Mini
+=head3 L<CPAN::Mini>
 
-=head3 CPAN::Mini::Devel
+=head3 L<CPAN::Mini::Devel>
 
-=head3 CPAN::Uploader
+=head3 L<CPAN::Uploader>
 
 =head2 Optional Dependencies Of Other Modules
 
-=head3 CPAN::Reporter
+=head3 L<CPAN::Reporter>
 
-=head3 PadWalker
+=head3 L<PadWalker>
 
-=head3 Task::SDK::Moose
+=head3 L<Task::SDK::Moose>
 
-=head3 Term::ReadLine::Gnu
+=head3 L<Term::ReadLine::Gnu>
 
-=head3 Test::Reporter
+=head3 L<Test::Reporter>
 
-=head3 Test::Reporter::Transport::Socket
+=head3 L<Test::Reporter::Transport::Socket>
 
 =head2 Development Tools
 
-=head3 Acme::MetaSyntactic
+=head3 L<Acme::MetaSyntactic>
 
-=head3 Carp::Always
+=head3 L<Carp::Always>
 
-=head3 Carp::Always::Color
+=head3 L<Carp::Always::Color>
 
-=head3 Carp::REPL
+=head3 L<Carp::REPL>
 
-=head3 Devel::Cover
+=head3 L<Devel::bt>
 
-=head3 Devel::NYTProf
+=head3 L<Devel::Cover>
 
-=head3 Dist::Zilla
+=head3 L<Devel::NYTProf>
 
-=head3 Dist::Zilla::PluginBundle::FLORA
+=head3 L<Dist::Zilla>
 
-=head3 Gitalist
+=head3 L<Dist::Zilla::PluginBundle::FLORA>
 
-=head3 Module::CPANTS::Analyse
+=head3 L<Gitalist>
 
-=head3 Module::Install 0.95
+=head3 L<Module::CPANTS::Analyse>
 
-=head3 Module::Install::AuthorRequires
+=head3 L<Module::Install> 0.95
 
-=head3 Module::Install::AuthorTests
+=head3 L<Module::Install::AuthorRequires>
 
-=head3 Module::Install::CheckConflicts
+=head3 L<Module::Install::AuthorTests>
 
-=head3 Module::Install::ExtraTests
+=head3 L<Module::Install::CheckConflicts>
 
-=head3 Perl::Tidy
+=head3 L<Module::Install::ExtraTests>
 
-=head3 Pod::Coverage::TrustPod
+=head3 L<Perl::Tidy>
 
-=head3 Test::Aggregate
+=head3 L<Perl::Version> 1.010
 
-=head3 Test::Pod
+=head3 L<Pod::Coverage::TrustPod>
 
-=head3 Test::Pod::Coverage
+=head3 L<Test::Aggregate>
 
-=head3 Test::Without::Module
+=head3 L<Test::Pod>
 
-=head3 V
+=head3 L<Test::Pod::Coverage>
+
+=head3 L<Test::Without::Module>
+
+=head3 L<V>
 
 =head2 Modules I use a lot
 
-=head3 Catalyst::Model::KiokuDB
+=head3 L<Catalyst::Model::KiokuDB>
 
-=head3 Data::Visitor
+=head3 L<Data::Visitor>
 
-=head3 Email::MIME::Kit
+=head3 L<Email::MIME::Kit>
 
-=head3 Email::MIME::Kit::Assembler::Markdown
+=head3 L<Email::MIME::Kit::Assembler::Markdown>
 
-=head3 Email::MIME::Kit::Renderer::TT
+=head3 L<Email::MIME::Kit::Renderer::TT>
 
-=head3 Email::Sender
+=head3 L<Email::Sender>
 
-=head3 Function::Parameters
+=head3 L<Function::Parameters>
 
-=head3 JSON
+=head3 L<JSON>
 
-=head3 List::AllUtils
+=head3 L<List::AllUtils>
 
-=head3 Method::Signatures::Simple
+=head3 L<Method::Signatures::Simple>
 
-=head3 Moose
+=head3 L<Moose>
 
-=head3 Moose::Autobox
+=head3 L<Moose::Autobox>
 
-=head3 MooseX::Declare
+=head3 L<MooseX::Declare>
 
-=head3 MooseX::LazyRequire
+=head3 L<MooseX::LazyRequire>
 
-=head3 MooseX::Types::Common
+=head3 L<MooseX::Types::Common>
 
-=head3 MooseX::Types::DateTime
+=head3 L<MooseX::Types::DateTime>
 
-=head3 MooseX::Types::Email
+=head3 L<MooseX::Types::Email>
 
-=head3 MooseX::Types::LoadableClass
+=head3 L<MooseX::Types::LoadableClass>
 
-=head3 MooseX::Types::Path::Class
+=head3 L<MooseX::Types::Path::Class>
 
-=head3 MooseX::Types::URI
+=head3 L<MooseX::Types::URI>
 
-=head3 Task::Catalyst
+=head3 L<Task::Catalyst>
 
-=head3 Task::KiokuDB
+=head3 L<Task::KiokuDB>
 
-=head3 Task::Plack
+=head3 L<Task::Plack>
 
-=head3 Test::WWW::Mechanize::Catalyst
+=head3 L<Test::WWW::Mechanize::Catalyst>
 
 =head1 AUTHOR
 
